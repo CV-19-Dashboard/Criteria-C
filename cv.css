@@ -1,0 +1,75 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #61605f;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.active {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+#p-title {
+    text-align: right;
+    font-size: 18px;
+    color: white;
+    padding-right: 15px;
+    font-weight: normal; 
+}
+
+#main {
+    background-color: #8a8a8a;
+    height: 750px;
+}
+
+#side {
+    float: left;
+    background-color: #61605f;
+    height: 730px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+#map {
+    float: left;
+    background-color: #61605f;
+    height: 730px;
+    width: 1095px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
