@@ -53,23 +53,30 @@ a {
 
 #main {
     background-color: #8a8a8a;
-    height: 750px;
+    height: 720px;
 }
 
 #side {
     float: left;
     background-color: #61605f;
-    height: 730px;
+    height: 700px;
     width: 300px;
     margin-top: 10px;
     margin-left: 10px; 
 }
 
-#map {
+#map-box {
     float: left;
     background-color: #61605f;
-    height: 730px;
+    height: 700px;
     width: 1095px;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+#mapid {
+    height: 680px;
+    width: 1075px;
+    margin: 10px;
+    
 }
