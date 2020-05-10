@@ -29,20 +29,11 @@
 
 		<div id="side">
 <div id="container">
-    <div class="row">
-        <div class="name">Player1</div><div class="score">430</div>
-    </div>
-    
-    <div class="row">
-        <div class="name">Player2</div><div class="score">580</div>
-    </div>
-    
-    <div class="row">
-        <div class="name">Player3</div><div class="score">310</div>
-    </div>
-    
-    <div class="row">
-        <div class="name">Player4</div><div class="score">640</div>
+<script src = "topten.js"</script>
+ <script>
+ leaderboard();
+ </script>
+		</div>
     </div>
     
     <div class="row">
@@ -3074,32 +3065,47 @@
 
 
 
-	#container {
-	width: 600px;
-	height: auto;
-}
+	function leaderboard() {
+var player1 = {name:"Thomas",date:"01/23/18",score:"201"};
+var player2 = {name:"Michael",date:"03/24/17",score:"943"};
+var player3 = {Name:"Lisa",date:"06/04/18",Score:"79"};
 
-.row {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: 40px;
-	border-bottom: 1px solid #AFAFAF;
+if(player1[2]>player2[2])&&(player1[2]>player3[2]) {
+    document.write(player1);
+    if(player2[2]>player3[2]) {
+        document.write(player2);
+        document.write(player3);
+    }
+    else {
+        document.write(player3);
+        document.write(player2);
+    }
 }
+else if(player2[2]>player1[2])&&(player2[2]>player3[2]) {
+    document.write(player2);
+    if(player1[2]>player3[2]) {
+        document.write(player1);
+        document.write(player3);
+    }
+    else {
+        document.write(player3);
+        document.write(player1);
+    }
 
-.name {
-	position: relative;
-	display: inline-block;
-	width: 75%;
-	line-height: 45px;
 }
-
-.score {
-	position: relative;
-	display: inline-block;
-	width: 25%;
+else if(player3[2]>player2[2])&&(player3[2]>player1[2]) {
+    document.write(player3);
+    if(player1[2]>player2[2]) {
+        document.write(player1);
+        document.write(player2);
+    }
+    else {
+        document.write(player2);
+        document.write(player1);
+    {
+    }
 }
-	
+}
 
 
 
