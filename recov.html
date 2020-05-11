@@ -28,7 +28,26 @@
 	<div id="main">
 
 		<div id="side">
-
+    <div class="row">
+        <div class="name">Spain</div><div class="score">117727</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">Germany</div><div class="score">112000</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">Iran</div><div class="score">69657</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">Italy</div><div class="score">64928</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">China</div><div class="score">63616</div>
+    </div>
+</div>
 		</div>
 
 		<div id="map-box">
@@ -284,6 +303,35 @@
 		L.circle([31.9522,35.2332],{color:'red',fillColor:'#f03',fillOpacity:0.5,radius:25000}).addTo(map).bindPopup('West Bank and Gaza : 71')
 		L.circle([-13.133897,27.849332],{color:'red',fillColor:'#f03',fillOpacity:0.5,radius:25000}).addTo(map).bindPopup('Zambia : 35')
 		L.circle([-19.015438,29.154857],{color:'red',fillColor:'#f03',fillOpacity:0.5,radius:25000}).addTo(map).bindPopup('Zimbabwe : 2')
+		
+		
+		
+		#side {
+	width: 600px;
+	height: auto;
+}
+
+.row {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #AFAFAF;
+}
+
+.name {
+	position: relative;
+	display: inline-block;
+	width: 75%;
+	line-height: 45px;
+}
+
+.score {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+}
+<div id="container">
 	</script>
 </body>
 </html>
