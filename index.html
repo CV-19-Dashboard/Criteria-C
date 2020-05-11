@@ -28,7 +28,26 @@
 	<div id="main">
 
 		<div id="side">
-
+    <div class="row">
+        <div class="name">Spain</div><div class="score">226629</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">Italy</div><div class="score">197675</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">France</div><div class="score">160847</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">United States</div><div class="score">158258</div>
+    </div>
+    
+    <div class="row">
+        <div class="name">Germany</div><div class="score">157770</div>
+    </div>
+</div>
     </div>
 	
    
@@ -3057,7 +3076,31 @@
 	L.circle([-19.015438,29.154857],{color:'red',fillColor:'#f03',fillOpacity:0.5,radius:2500}).addTo(map).bindPopup('Zimbabwe : 28')
 
 
+	#side {
+		width: 600px;
+		height: auto;
+	}
 
+	.row {
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 40px;
+		border-bottom: 1px solid #AFAFAF;
+	}
+
+	.name {
+		position: relative;
+		display: inline-block;
+		width: 75%;
+		line-height: 45px;
+	}
+
+	.score {
+		position: relative;
+		display: inline-block;
+		width: 25%;
+	}
 
 
 	</script>
