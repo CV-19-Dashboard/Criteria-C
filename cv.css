@@ -60,7 +60,7 @@ a {
     float: left;
     background-color: #61605f;
     height: 700px;
-    width: 300px;
+    width: 299px;
     margin-top: 10px;
     margin-left: 10px; 
 }
@@ -79,4 +79,24 @@ a {
     width: 1075px;
     margin: 10px;
     
+}
+
+#b-nav {
+    overflow: hidden;
+    background-color: #61605f;
+}
+
+#b-nav a {
+    float: left;
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 17px;
+    padding-left: 51px;
+    padding-right: 51px;
+    text-decoration: none;
+}
+
+.b-act {
+    background-color: #8a8a8a;
 }
