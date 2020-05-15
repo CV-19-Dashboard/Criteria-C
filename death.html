@@ -28,7 +28,10 @@
 	<div id="main">
 
 		<div id="side">
-
+			<div id="b-nav">
+				<a href="death.html" class="b-act">Map</a>
+				<a href="graph-d.html">Graph</a>				
+			</div>
 		</div>
 
 		<div id="map-box">
@@ -38,10 +41,6 @@
 	</div>
 
 	<script>
-		
-		
-
-
 		var map = L.map("mapid").setView([51.505, -0.09], 2);
 
 		L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
