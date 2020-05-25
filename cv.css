@@ -100,3 +100,27 @@ a {
 .b-act {
     background-color: #8a8a8a;
 }
+
+#c-g {
+    width: 1075px;
+    height: 680px;
+    border-style: solid;
+    margin: 10px;
+} 
+
+.num-m {
+    margin-left: 15px;
+    color: white;
+}
+
+.num-t {
+    margin-top: 55px;
+    margin-left: 15px;
+    color: white;
+}
+
+#rtrv {
+    margin-top: 35px;
+    margin-left: 15px;
+    color: white; 
+}
